@@ -18,3 +18,8 @@ No futuro este repositório pretende oferecer mecanismos de consulta através de
 Outras idéias são bem vindas! :-)
 
 Já na primeira versão você obtém  um conjunto de scripts para criação das estruturas em SGBDR Microsoft SQL Server 2019, além da carga de dados da CBO versão 2002, a mais recente até o momento.
+
+
+
+Os 7 arquivos .csv foram obtidos em um arquivo .zip disponível em  http://cbo.maisemprego.mte.gov.br/cbosite/pages/downloads.jsf.
+Neste mesmo endereço há os 4 arquivos .pdf, também encontrado nessa pasta.
