@@ -1,0 +1,10 @@
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (0, 'MEMBROS DAS FORÇAS ARMADAS, POLICIAIS E BOMBEIROS MILITARES');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (1, 'MEMBROS SUPERIORES DO PODER PÚBLICO, DIRIGENTES DE ORGANIZAÇÕES DE INTERESSE PÚBLICO E DE EMPRESAS, GERENTES');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (2, 'PROFISSIONAIS DAS CIÊNCIAS E DAS ARTES');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (3, 'TÉCNICOS DE NIVEL MÉDIO');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (4, 'TRABALHADORES DE SERVIÇOS ADMINISTRATIVOS');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (5, 'TRABALHADORES DOS SERVIÇOS, VENDEDORES DO COMÉRCIO EM LOJAS E MERCADOS');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (6, 'TRABALHADORES AGROPECUÁRIOS, FLORESTAIS E DA PESCA');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (7, 'TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (8, 'TRABALHADORES DA PRODUÇÃO DE BENS E SERVIÇOS INDUSTRIAIS');
+insert into Cbo2002.GrandeGrupo (Codigo, Titulo) values (9, 'TRABALHADORES EM SERVIÇOS DE REPARAÇÃO E MANUTENÇÃO');
