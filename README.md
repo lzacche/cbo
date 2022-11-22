@@ -19,7 +19,17 @@ Outras idéias são bem vindas! :-)
 
 Já na primeira versão você obtém  um conjunto de scripts para criação das estruturas em SGBDR Microsoft SQL Server 2019, além da carga de dados da CBO versão 2002, a mais recente até o momento.
 
+Importante: Os artefatos de software não tem o objetivo de prover mecanismos para atualizar os dados. Os dados são sempre somente leitura. A atualização dos dados será sempre, somente, através de scripts, a partir da fonte oficial, que é o MTE (ou algo que venha a substituí-lo).
 
 
 Os 7 arquivos .csv foram obtidos em um arquivo .zip disponível em  http://cbo.maisemprego.mte.gov.br/cbosite/pages/downloads.jsf.
 Neste mesmo endereço há os 4 arquivos .pdf, também encontrado nessa pasta.
+
+
+Lista de Tarefas
+================
+- Desenhar o modelo de dados
+- Escrever uma breve explicação sobre o modelo de dados
+- Criar scripts shell para automatizar a criação e carga do banco
+- Criar uma aplicação exemplo
+- Criar uma API de consulta.
