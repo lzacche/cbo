@@ -14,6 +14,7 @@ No futuro este repositório pretende oferecer mecanismos de consulta através de
 - Micro serviços;
 - Entidades mapeadas via Entity Framework;
 - Consultas diretamente às tabelas no SGBD;
+- API implementada em Cloud Function  (Google? Azure? Outra?);
 
 Outras idéias são bem vindas! :-)
 
@@ -28,8 +29,8 @@ Neste mesmo endereço há os 4 arquivos .pdf, também encontrado nessa pasta.
 
 Lista de Tarefas
 ================
-- Desenhar o modelo de dados
-- Escrever uma breve explicação sobre o modelo de dados
-- Criar scripts shell para automatizar a criação e carga do banco
-- Criar uma aplicação exemplo
-- Criar uma API de consulta.
+- [ ] Desenhar o modelo de dados
+- [ ] Escrever uma breve explicação sobre o modelo de dados
+- [ ] Criar scripts shell para automatizar a criação e carga do banco
+- [ ] Criar uma aplicação exemplo
+- [ ] Criar uma API de consulta.
