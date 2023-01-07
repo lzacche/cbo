@@ -1,13 +1,11 @@
 # cbo
 Classificação Brasileira de Ocupações
 
-Este repositório tem como objetivo compartilha uma forma de usar (dentre as muitas possível) os dados da CBO (Classificação Brasileira de Ocupações).
+Este repositório tem como objetivo compartilhar uma forma de usar (dentre as muitas possível) os dados da CBO (Classificação Brasileira de Ocupações).
 
 O que é a CBO?
 Uma explicação rápida e rasteira (e um tanto imprecisa): É o que você deseja usar quando pensa em "cadastro de profissões" para usar no seu software ou sistema. 
-Os cadastros de pessoas físicas frequentemente contém um campo para profissão, mas os negócios em geral requerem saber o que a pessoa faz, o seu trabalho atual.
-E o trabalho atual da pessoa é a sua ocupação, não sua profissão. A profissão é algo relacionado a carreira, tem a ver com as diversas ocupações ao longo da vida.
-Já a ocupação é a informação em um dado momento.
+Os cadastros de pessoas físicas frequentemente contém um campo para informar a profissão, mas os negócios em geral requerem saber o que a pessoa faz, o seu trabalho atual. E o trabalho atual da pessoa é a sua ocupação, não sua profissão. A profissão é algo relacionado a carreira, releva algo sobre a identidade da pessoa e tem a ver com as diversas ocupações ao longo da vida. Já a ocupação é a informação em um dado momento.
 
 Como Esse repositório pode ser usado?
 No futuro este repositório pretende oferecer mecanismos de consulta através de:
@@ -18,7 +16,10 @@ No futuro este repositório pretende oferecer mecanismos de consulta através de
 
 Outras idéias são bem vindas! :-)
 
-Já na primeira versão você obtém  um conjunto de scripts para criação das estruturas em SGBDR Microsoft SQL Server 2019, além da carga de dados da CBO versão 2002, a mais recente até o momento.
+Já na primeira versão você obtém  um conjunto de scripts para criação das estruturas em SGBDR Microsoft SQL Server 2019, além da carga de dados da CBO versão 2002, a mais recente até o momento. O modelo de dados está representado na imagem a seguir.
+
+<img width="307" alt="CBO" src="https://user-images.githubusercontent.com/102909919/211169892-3ec8004e-b87c-42d4-b292-50c19c8f7d4c.png">
+
 
 Importante: Os artefatos de software não tem o objetivo de prover mecanismos para atualizar os dados. Os dados são sempre somente leitura. A atualização dos dados será sempre, somente, através de scripts, a partir da fonte oficial, que é o MTE (ou algo que venha a substituí-lo).
 
@@ -29,8 +30,9 @@ Neste mesmo endereço há os 4 arquivos .pdf, também encontrado nessa pasta.
 
 Lista de Tarefas
 ================
-- [ ] Desenhar o modelo de dados
+- [x] Desenhar o modelo de dados
 - [ ] Escrever uma breve explicação sobre o modelo de dados
 - [ ] Criar scripts shell para automatizar a criação e carga do banco
 - [ ] Criar uma aplicação exemplo
 - [ ] Criar uma API de consulta.
+
