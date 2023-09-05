@@ -1,7 +1,7 @@
 # cbo
 Classificação Brasileira de Ocupações
 
-Este repositório tem como objetivo compartilhar uma forma de usar (dentre as muitas possível) os dados da CBO (Classificação Brasileira de Ocupações).
+Este repositório tem como objetivo compartilhar uma forma de usar (dentre as muitas possíveis) os dados da CBO (Classificação Brasileira de Ocupações).
 
 O que é a CBO?
 Uma explicação rápida e rasteira (e um tanto imprecisa): É o que você deseja usar quando pensa em "cadastro de profissões" para usar no seu software ou sistema. 
@@ -25,14 +25,14 @@ Importante: Os artefatos de software não tem o objetivo de prover mecanismos pa
 
 
 Os 7 arquivos .csv foram obtidos em um arquivo .zip disponível em  http://cbo.maisemprego.mte.gov.br/cbosite/pages/downloads.jsf.
-Neste mesmo endereço há os 4 arquivos .pdf, também encontrado nessa pasta.
+Neste mesmo endereço há os 4 arquivos .pdf, também encontrados nessa pasta.
 
 
 Lista de Tarefas
 ================
 - [x] Desenhar o modelo de dados
 - [ ] Escrever uma breve explicação sobre o modelo de dados
-- [ ] Criar scripts shell para automatizar a criação e carga do banco
+- [x] Criar scripts shell para automatizar a criação e carga do banco
 - [ ] Criar uma aplicação exemplo
 - [ ] Criar uma API de consulta.
 
